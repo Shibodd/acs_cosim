@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message ControlInput {
+  float steer = 1;
+  float throttle = 2;
+  float brake = 3;
+  bool shift_up_paddle = 4;
+  bool shift_down_paddle = 5;
+};
